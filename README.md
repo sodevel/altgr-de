@@ -20,7 +20,7 @@ This is the easiest way, use the latest installer from the [Releases](https://gi
 
 ## Source Compilation
 
-To compile the keyboard layout source file, you have to install the [Microsoft Keyboard Layout Creator (MSKLC) Version 1.4](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiumeGVy6-AAxU0bvEDHUqKCC0QFnoECBMQAQ&url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fdownload%2Fdetails.aspx%3Fid%3D102134&usg=AOvVaw3SBWIDTgnW5PvC2-rYr9kb&opi=89978449).
+To compile the keyboard layout source file, you have to install the [Microsoft Keyboard Layout Creator (MSKLC) Version 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=102134).
 The keyboard layout source file does not contain a locale definition, hence MSKLC will use the current system locale for the created installer.
 Ensure that your system is currently using the desired locale and start MSKLC. Use `File | Load Source File...` and select `altgr-de.klc`.
 Create the installer by using `Project | Build DLL and Setup Package`, install the keyboard layout by starting the created `setup.exe`.
